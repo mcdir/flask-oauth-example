@@ -54,6 +54,5 @@ docs/_build/
 target/
 
 # application files
-venv*
-*.sqlite
-.*
+env*
+

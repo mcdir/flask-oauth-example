@@ -1,0 +1,10 @@
+<!-- extend base layout -->
+{% extends "index.html" %}
+
+<h1>404</h1>
+
+{% block content %}
+    <h1>404</h1>
+    <h1>{{ _('File Not Found') }}</h1>
+    <p><a href="{{ url_for('index') }}">{{ _('Back') }}</a></p>
+{% endblock %}
